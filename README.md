@@ -34,5 +34,8 @@ The dataset used in this project contains historical information about loan appl
 2.  **Data Cleaning**: Missing values are handled by dropping rows with `NaN` values, and the `Dependents` column's '3+' category is converted to '4'.
 3.  **Feature Engineering**: Categorical features like 'Gender', 'Married', 'Education', 'Self_Employed', and 'Property_Area' are converted into numerical representations using label encoding.
 4.  **Data Splitting**: The dataset is divided into training and testing sets (e.g., 90% training, 10% testing).
-5.  **Model Training**: A Support Vector Machine (SVM) classifier with a linear kernel is trained on the preprocessed training data.
-6.  **Model Evaluation**: The trained model's performance is evaluated on both training and test datasets using accuracy scores.
+
+## Results
+The SVM model achieved an accuracy of approximately 79.86% on the training data and 83.33% on the test data. This indicates a good generalization capability of the model in predicting loan approval.
+6.  **Model Training**: A Support Vector Machine (SVM) classifier with a linear kernel is trained on the preprocessed training data.
+7.  **Model Evaluation**: The trained model's performance is evaluated on both training and test datasets using accuracy scores.
