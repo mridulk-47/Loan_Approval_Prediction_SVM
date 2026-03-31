@@ -14,6 +14,7 @@ This project aims to develop a machine learning model to predict whether a loan 
 
 ## Dataset
 Dataset Link: "https://www.kaggle.com/datasets/ninzaami/loan-predication"
+
 The dataset used in this project contains historical information about loan applicants, including:
 - `Loan_ID`: Unique loan identification
 - `Gender`: Male/Female
